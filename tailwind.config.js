@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        r_orange: '#F1C40F'
+      },
       fontFamily: {
         'sora': ['Sora', 'sans-serif']
       }

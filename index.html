@@ -6,22 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roco Web</title>
   </head>
-  <body class="bg-slate-50">
-    <header class="flex items-center">
-      <h1 class=" w-1/4 p-16 font-sora font-extrabold text-stone-800 text-8xl">RO<br>CO</h1>
-      <nav class="flex w-3/4 justify-end">
-        <div class="text-center w-64"><a class="font-sora font-medium uppercase text-xl text-stone-800 p-3" href="#">Services</a></div>
-        <div class="text-center w-64"><a class="font-sora font-medium uppercase text-xl text-stone-800 p-3" href="#">Work</a></div>
-        <div class="text-center w-64"><a class="font-sora font-medium uppercase text-xl text-stone-800 p-3" href="#">Contact</a></div>
+  <body class="p-16 bg-slate-50">
+    
+    <!-- HEADER -->
+    <header class="flex items-center justify-items-center mb-32">
+      <h1 class="basis-1/4 font-sora font-extrabold text-stone-800 text-8xl">RO<br>CO</h1>
+      <nav class="basis-3/4 flex space-x-32 justify-end">
+        <a class="font-sora font-medium uppercase text-xl text-stone-800 p-3" href="#">Services</a>
+        <a class="font-sora font-medium uppercase text-xl text-stone-800 p-3" href="#">Work</a>
+        <a class="font-sora font-medium uppercase text-xl text-stone-800 p-3" href="#">Contact</a>
       </nav>
     </header>
 
-    <section>
-      <h2 class="font-sora font-extrabold text-6xl text-stone-800">
-        <span>Web & front-end</span><br>
-        <span>solutions</span>
-      </h2>
+    <!-- HERO -->
+    <section class="flex justify-center items-center space-x-32">
+      <div>
+        <h2 class="font-sora font-extrabold text-6xl text-stone-800 mb-8">
+          <span>Web & front-end</span><br>
+          <span class="text-r_orange">solutions</span>
+        </h2>
+        <a href="#contact" class="font-sora font-bold underline uppercase text-xl text-stone-800">
+          Get in touch
+        </a>
+      </div>
+      <div>
+        <img src="./img/ui.png"/>
+      </div>
     </section>
+
+    <!-- Content block 1 (WIP)-->
+    <!-- <section class="flex justify-center items-center space-x-32">
+      <div class="">
+        <img src="./img/ui.png"/>
+      </div>
+
+      <div class="">
+        <h2 class="font-sora font-extrabold text-3xl text-r_orange">
+          Marketing websites
+        </h2>
+        <p class="font-sora text-xl">We build state-of-the-art marketing websites that drive conversions and create delightful experiences for your users (ask Google!)</p>
+        <a href="#contact" class="font-sora font-bold underline uppercase text-xl text-stone-800">
+          Learn more
+        </a>
+      </div>
+    </section> -->
 
     <script type="module" src="./src/main.js"></script>
   </body>
